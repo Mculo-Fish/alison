@@ -33,9 +33,10 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
+h1 a {
   font-size: var(--header1);
   font-family: sans-serif;
+  color: white;
 }
 li,
 textarea,
@@ -345,10 +346,10 @@ input:focus {
   }
 
   .hero{
-    background: url(img/jess-bailey-Bg14l3hSAsA-unsplash\(1\).jpg);
+    background: url(img/henry-co--odUkx8C2gg-unsplash.jpg);
     background-size:cover ;
     background-position: center;
-    
+    filter: saturate(500px);
     width: 100%;
     margin: 0;
     
@@ -381,6 +382,11 @@ input:focus {
     color: white;
     font-size: var(--header3);
     text-decoration: underline;
+  }
+
+  .gallery-head {
+    padding: 3rem 5rem;
+    
   }
 
   
