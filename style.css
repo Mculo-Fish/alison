@@ -43,7 +43,7 @@ textarea,
 button,
 label,
 input,
-a,
+
 p {
   font-size: var(--text);
 }
@@ -84,7 +84,7 @@ body {
   position: sticky;
   top:0;
   background: linear-gradient(var(--background-color),rgb(24, 24, 24));
-  filter: ;
+
   
 }
 
@@ -436,9 +436,7 @@ input:focus {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
-  .gallery-head {
-    
-  }
+ 
   .contact img {
     display: none;
   }
@@ -462,3 +460,8 @@ input:focus {
     --big: 8rem;
   }
 }
+
+
+
+
+
