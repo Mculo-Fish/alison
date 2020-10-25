@@ -124,6 +124,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
+  
 }
 
 .hero-introduction {
@@ -334,15 +335,30 @@ input:focus {
 
 @media screen and (max-width: 842px) {
   .hero {
-    position: relative;
-    width: 100%;
+   position: relative;
+   left: 0;
+   top: 0;
+    
+    
    
 
+  }
+
+  .hero{
+    background: url(img/jess-bailey-Bg14l3hSAsA-unsplash\(1\).jpg);
+    background-size:cover ;
+    background-position: center;
+    
+    width: 100%;
+    margin: 0;
+    
+    
   }
 
  
   .hero-introduction p {
     padding: 5rem 3rem;
+    
   }
 
   .hero-images{
