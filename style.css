@@ -36,13 +36,14 @@ html {
 h1 a {
   font-size: var(--header1);
   font-family: sans-serif;
-  color: white;
+  
 }
 li,
 textarea,
 button,
 label,
 input,
+a,
 
 p {
   font-size: var(--text);
@@ -81,9 +82,11 @@ body {
 .main-head {
   
   z-index: 2;
-  position: sticky;
-  top:0;
-  background: linear-gradient(var(--background-color),rgb(24, 24, 24));
+  position: relative; ;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  top:10px;
+  background:rgb(248, 248, 248);
+  transition: all 0.5s ease-in-out
 
   
 }
@@ -108,10 +111,7 @@ nav {
   
 }
 
-.nav-links a{
-  color: white;
-  
-}
+
 
 .nav-links a:hover {
   color: rgb(236, 236, 236);
@@ -180,6 +180,7 @@ nav {
 /* ABOUT SECTION */
 
 .about {
+  padding-top: 5rem;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -290,6 +291,23 @@ input,.form-wrapper button,
   color: white;
   padding: 1rem;
 
+}
+
+.sticky{
+
+  position: sticky;
+  color: black;
+  top:0;
+  transition: all 0.5s ease-in-out ;
+  background:linear-gradient(var(--background-color),rgb(24, 24, 24));
+}
+
+.sticky h1 a {
+  color:#fff;
+}
+
+.sticky ul li a{
+  color:#fff;
 }
 
 

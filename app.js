@@ -13,3 +13,8 @@ links.forEach(link => {
     burger.classList.toggle("toggle");
   });
 });
+
+this.addEventListener('scroll',()=>{
+  let header = document.querySelector('.main-head')
+  header.classList.toggle('sticky',window.scrollY > 0)
+})
