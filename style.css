@@ -36,7 +36,7 @@ html {
 h1 a {
   font-size: var(--header1);
   font-family: 'Special Elite', cursive;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.4rem;
   padding: 0.5rem;
   
 }
@@ -426,6 +426,10 @@ a .img-text{
     margin: 0;
     }
 
+    h1 a{
+      letter-spacing: 0.1rem;
+    }
+
  
   .hero-introduction p {
     padding: 5rem 3rem;
@@ -442,11 +446,12 @@ a .img-text{
     cursor: pointer;
   }
   .burger span {
-    padding: 0.2rem 2rem;
+    padding: 0.2rem 1.8rem;
     background: rgb(197, 196, 196);
     margin: 0.5rem 0rem;
     display: block;
     transition: all 0.5s ease;
+    border-radius:5px ;
   }
   .nav-links a {
     color: white;
@@ -484,6 +489,12 @@ a .img-text{
 
   .nav-open {
     transform: translateX(-100%);
+  }
+
+  .nav-open li a:hover {
+    border:none;
+    color: var(--special-color) !important;
+    
   }
 
   .toggle .line1 {
